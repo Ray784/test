@@ -1,0 +1,21 @@
+.box {
+  background-color: white;
+  filter: drop-shadow(4px 4px 4px gray);
+  color: black;
+  padding: 42%;
+  font-size: 150%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(7, 100px);
+  grid-template-rows: repeat(6, 100px);
+  grid-auto-flow: row;
+}
+
+.center{
+  width: 800px;
+  display: block;
+  margin: auto;
+}
